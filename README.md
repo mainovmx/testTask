@@ -1,4 +1,4 @@
-# testTask
+# Тестовое задание
 Для запуска файлов необходимо:
 
 1.скачать и установить Comunity Edition IDE IntelliJ IDEA от JetBrains https://www.jetbrains.com/ru-ru/idea/download/#section=windows
