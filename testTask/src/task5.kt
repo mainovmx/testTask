@@ -3,10 +3,5 @@ fun main() {
     val sortList = list.sorted()
     val countVal = sortList.groupingBy { it }.eachCount().toSortedMap()
     val sortCountUnique = countVal.toList().sortedByDescending { (_, value) -> value }.toMap()
-    println("Количество уникальных значений")
-    for (entry in sortCountUnique) {
-        print(entry.key)
-        print(" ")
-        println(entry.value)
-    }
+    sortCountUnique.forEach(::println)
 }
