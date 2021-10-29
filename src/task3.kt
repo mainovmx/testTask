@@ -1,3 +1,3 @@
-fun main() {
-    readLine()?.split(" ")?.toList()?.sorted()?.distinct()?.forEach(::println)
+fun main(args: Array<String>) {
+    args.sorted().distinct().forEach(::println)
 }

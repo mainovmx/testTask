@@ -1,3 +1,3 @@
-fun main() {
-    readLine()?.split(" ")?.toList()?.forEach(::println)
+fun main(args: Array<String>) {
+    args.forEach(::println)
 }
