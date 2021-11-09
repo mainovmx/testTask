@@ -1,4 +1,4 @@
-![Workflow](https://github.com/mainovmx/testTask/actions/workflows/main.yaml/badge.svg)
+![Workflow](https://github.com/mainovmx/testTask/actions/workflows/main.yml/badge.svg)
 
 **Test_Kotlin**
 
