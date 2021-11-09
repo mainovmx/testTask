@@ -1,10 +1,10 @@
-name: Kotlin CI
+name: CI
 
 on:
   push:
     branches: [ main ]
     
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -17,7 +17,12 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-          
+      - name: Set permission for BUILD
+        run: chmod 777 ./BUILD.sh
+
+      - name: Set permission for TEST
+        run: chmod 777 ./TEST.sh
+
       - name: Run Build
         run: ./BUILD.sh
         
