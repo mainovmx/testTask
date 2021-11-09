@@ -17,6 +17,7 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
+
       - name: Set permission for BUILD
         run: chmod 777 ./BUILD.sh
 
